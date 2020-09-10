@@ -1,3 +1,25 @@
+.button__pill-blue{
+  font-size: 12px;
+  font-weight: bolder;
+  height: 40px;
+  margin: 20px auto 0;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+button[class^="button__pill"] i[class^="icon__"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+.button__pill-blue{
+  background-color: #1875F0;
+}
 .button__disc-red {
   background-color: #d52027;
 }
@@ -41,15 +63,38 @@
 .section__title {
   height: 40px;
   line-height: 40px;
+  font-size: 24px;
+  font-weight: 600;
   text-align: center;
   color: #fff;
+  position: relative;
 }
 .section__title-wrapper {
   padding: 10px;
   height: 60px;
   background-color: #D52027;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: #D52027;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    right: -36px;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
 }
+
 .description-box__with-shadow {
   background-color: #fff;
   box-shadow:  0 2px 6px rgba(0, 0, 0, 0.25);

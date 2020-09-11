@@ -1,12 +1,5 @@
 //- pre=JSON.stringify(data, null, 2)
-.column(span="row")
-  .section__title-wrapper
-    .section__title= data['about-me'].sectionTitle
-.column(span="row" height="10")
-.column(span="row")
-  button.button__disc-red
-    i.icon__youtube
-.column(span="row" height="10")
+include ../section-title/section-title.pug
 .column(span="row")
   h1.about-me__main-title= data['about-me'].mainTitle
 .column(span="row")
@@ -16,7 +9,7 @@
   h2.about-me__lead-title= data['about-me'].leadTitle
 .column(span="row")
   .description-box__with-shadow
-    each description in data['about-me'.descriptionList]
+    each description in data['about-me'].descriptionList
       p.description= description
 .column(span="row" height="10")
 .column(span="row")

@@ -1,4 +1,76 @@
 {
   "sectionTitle": "Let's Connect",
-  "avatarPath": "asset/image/cv-me.jpeg"
+  "avatarPath": "asset/image/cv-me.jpeg",
+  "socialList": [
+    {
+      "icon": "codetap",
+      "title": "Code Tap",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "github",
+      "title": "Github",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "stackoverflow",
+      "title": "Stack Overflow",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "codewars",
+      "title": "CodeWars",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "udemy",
+      "title": "Udemy",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "facebook",
+      "title": "Facebook",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "skype",
+      "title": "Skype",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "instagram",
+      "title": "Instagram",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    },
+    {
+      "icon": "twitter",
+      "title": "Twitter",
+      "description": "gsfsdfsfsgsgfsgf",
+      "label": "codetap.academy",
+      "link": "https://codetap.academy"
+    }
+  ]
 }

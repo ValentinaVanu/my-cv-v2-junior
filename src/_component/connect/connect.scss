@@ -1,8 +1,13 @@
+.connect__social-description{
+  // display: none;
+  background-color: pink;
+// work o how to display the description based on which label 
+// is checked
+}
 .connect__radio:checked + .column .connect__disc {
   background-color: #d52027;
 
 }
-
 .connect__disc {
   transition: 250ms;
   background-color: #1875F0;

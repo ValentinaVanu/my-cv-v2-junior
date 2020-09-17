@@ -5,10 +5,22 @@ include ../section-title/section-title.pug
   .connect__avatar
 .column(span="row" height="10")
 
+      //- input.connect__radio(type="radio")
 each social in data.connect.socialList
-  .column(span="1")
-    .connect__disc
-      i(class= `icon__${social.icon}`)
+  label(for=`labelId__${social.icon}`) 
+    input.connect__radio(
+      type="radio"
+      id=`labelId__${social.icon}`
+      )
+    .column(span="1")
+      .connect__disc
+        i(class= `icon__${social.icon}`)
+.column(span="row")
+.column(span="row" height="10")
+
+each social in data.connect.socialList
+  .connect__disc-content
+    h1=data.connect.socialList.description
 
 .column(span="row" height="10")
 .column(span="row")

@@ -1,9 +1,16 @@
+.connect__radio:checked + .column .connect__disc {
+  background-color: #d52027;
+
+}
+
 .connect__disc {
+  transition: 250ms;
   background-color: #1875F0;
   color: #fff;
   border-radius: 50%;
   padding-top: 100%;
   position: relative;
+  cursor: pointer;
   
   [class^="icon__"] {
     position: absolute;

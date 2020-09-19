@@ -1,14 +1,20 @@
-.connect__social-description{
-  // display: none;
-  background-color: pink;
-// work o how to display the description based on which label 
-// is checked
-}
+
+// Testing thigs out
+// .connect__social-description{
+//   display: none;
+// }
+// .connect__radio:checked ~.connect__social-descripton {
+//     display: block;
+// }
+// .connect__radio {
+//   display: none;
+// }
 .connect__radio:checked + .column .connect__disc {
   background-color: #d52027;
 
 }
 .connect__disc {
+  display: block;
   transition: 250ms;
   background-color: #1875F0;
   color: #fff;

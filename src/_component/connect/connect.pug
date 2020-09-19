@@ -5,23 +5,39 @@ include ../section-title/section-title.pug
   .connect__avatar
 .column(span="row" height="10")
 
-each social in data.connect.socialList
-  label(for=`labelId__${social.icon}`) 
-    input.connect__radio(
-      type="radio"
-      id=`labelId__${social.icon}`
-      name="socialitems"
-      )
-    .column(span="1")
-      .connect__disc
-        i(class= `icon__${social.icon}`)
-//- work on how to display the description under discs
-  .column(span="row")
-    .connect__social-description
-      h1= social.title
+each social, key in data.connect.socialList
+  input.connect__radio(
+    type="radio"
+    name= "abc"
+    id= `connect__label--${key}`
+    )
+  .column(span="1")
+    label(for=`connect__label--${key}`).connect__disc
+      i(class=`icon__${social.icon}`)
+
+
+//- each social in data.connect.socialList
+//-   input.connect__radio(
+//-     type="radio"
+//-     id=`labelId__${social.icon}`
+//-     name="socialitems"
+//-   )
+//- each social in data.connect.socialList
+//-   .column(span="1")
+//-     label(for=`labelId__${social.icon}`) 
+//-       .connect__disc
+//-         i(class= `icon__${social.icon}`)
+
+//- each social in data.connect.socialList
+//-   .connect__social-descripton
+//-     h1= social.title
+//- .column(span="row")
+//- .column(span="row" height="10")
+   
 
 .column(span="row")
 .column(span="row" height="10")
+.column(span="row")
   button.button__disc-green
     i.icon__arrow-down
 .column(span="row" height="10")

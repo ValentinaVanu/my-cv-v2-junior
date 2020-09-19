@@ -5,35 +5,27 @@ include ../section-title/section-title.pug
   .connect__avatar
 .column(span="row" height="10")
 
+
 each social, key in data.connect.socialList
   input.connect__radio(
     type="radio"
-    name= "abc"
+    name= "connect__label"
     id= `connect__label--${key}`
     )
   .column(span="1")
     label(for=`connect__label--${key}`).connect__disc
       i(class=`icon__${social.icon}`)
 
-
-//- each social in data.connect.socialList
-//-   input.connect__radio(
-//-     type="radio"
-//-     id=`labelId__${social.icon}`
-//-     name="socialitems"
-//-   )
-//- each social in data.connect.socialList
-//-   .column(span="1")
-//-     label(for=`labelId__${social.icon}`) 
-//-       .connect__disc
-//-         i(class= `icon__${social.icon}`)
-
-//- each social in data.connect.socialList
-//-   .connect__social-descripton
-//-     h1= social.title
-//- .column(span="row")
-//- .column(span="row" height="10")
-   
+.column(span="row")
+.column(span="row" height="10")
+  .description-box__with-shadow
+    input.connect__radio(
+      type="radio"
+      name= "connect__label"
+      id= `connect__label--reset`
+      )
+      label(for=`connect__label--reset`).connect__disc
+        i(class=`icon__cross`)
 
 .column(span="row")
 .column(span="row" height="10")

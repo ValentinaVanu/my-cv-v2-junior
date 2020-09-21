@@ -1,6 +1,15 @@
 .connect__radio:checked + .column .connect__disc {
   background-color: #d52027;
 }
+@for $i from 1 through 10 {
+  .connect__radio:nth-of-type(#{$i}):checked ~ [data-description-box="#{$i}"] {
+    display: block;
+  }
+}
+[data-description-box] {
+  display: none;
+
+}
 .description-box__footer,
 .description-box__body {
   padding: 20px;
@@ -15,6 +24,7 @@
   background-color: #fff;
   position: relative;
   margin-top: 1rem;
+
   
   &::after {
     content: "";

@@ -5,72 +5,72 @@
     {
       "icon": "codetap",
       "title": "Code Tap",
-      "description": "gsfsdfsfsgsgfsgf",
+      "description": "Code Tap is Awesome!",
       "label": "codetap.academy",
       "link": "https://codetap.academy"
     },
     {
       "icon": "github",
       "title": "Github",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "There are more than 100 open source project where you can see me working with HTML, CSS, JavaScript and others",
+      "label": "github.com/ValentinaVanu",
+      "link": "https://github.com/ValentinaVanu"
     },
     {
       "icon": "linkedin",
       "title": "LinkedIn",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "Frontend Web Developer working in the computer software industry. Skilled in HTML, Bootstrap, Cascading Style Sheets (CSS), Jade, and JavaScript. Strong engineering professional with a Nano Degree focused in Front End Web Dev from Udacity.",
+      "label": "linkedin.com/in/valentina-vanu",
+      "link": "https://www.linkedin.com/in/valentina-vanu-a63034148/"
     },
     {
       "icon": "stackoverflow",
       "title": "Stack Overflow",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.",
+      "label": "stackoverflow",
+      "link": "https://stackoverflow.com/users/14316519/valentinavanu?tab=profile"
     },
     {
       "icon": "codewars",
       "title": "CodeWars",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential.",
+      "label": "codewars",
+      "link": "https://www.codewars.com/"
     },
     {
       "icon": "udemy",
       "title": "Udemy",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "On-Demand Online Courses! Find the right instructor for you. Any topic, skill level, or language. ",
+      "label": "udemy.com/user/valentina-vanu",
+      "link": "https://www.udemy.com/user/valentina-vanu/"
     },
     {
       "icon": "facebook",
       "title": "Facebook",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "Facebook helps you connect and share with the people in your life.",
+      "label": "facebook",
+      "link": "https://www.facebook.com/"
     },
     {
       "icon": "skype",
       "title": "Skype",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "Stay in touch! Free online calls, messaging, affordable international calling to mobiles or landlines and instant online meetings on Skype",
+      "label": "Skype",
+      "link": "https://www.skype.com/en/"
     },
     {
       "icon": "instagram",
       "title": "Instagram",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.",
+      "label": "instagram.com/vii.valentina",
+      "link": "https://www.instagram.com/vii.valentina/"
     },
     {
       "icon": "twitter",
       "title": "Twitter",
-      "description": "gsfsdfsfsgsgfsgf",
-      "label": "codetap.academy",
-      "link": "https://codetap.academy"
+      "description": "Follow your interests. Hear what people are talking about. Join the conversation.",
+      "label": "twitter.com",
+      "link": "https://twitter.com"
     }
   ]
 }

@@ -1,0 +1,16 @@
+- var sectionTitle = data[`open-source`].sectionTitle;
+include ../section-title/section-title.pug
+
+.column(span="row")
+  h3.about-me__lead-title= data[`open-source`].statsTitle
+.column(span="row")
+ul.stats__list
+  each stats in data['open-source'].statsList
+    li.stats__item
+      span.stats__icon(class=`icon__${stats.icon}`)
+      span.stats__content= stats.content
+
+.column(span="row")
+  button.button__disc-green
+    i.icon__arrow-down
+.column(span="row" height="10")

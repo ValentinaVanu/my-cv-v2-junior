@@ -1,0 +1,19 @@
+.stats__list {
+  @extend %rounded-border-list;
+}
+.stats__item {
+  
+  &:not(:last-child) {
+    @extend %list-item;
+
+  }
+}
+
+.stats__content,
+.stats__icon {
+  margin: 10px;
+}
+.stats__content  {
+  font-size: 13px;
+  font-weight: bold;
+}

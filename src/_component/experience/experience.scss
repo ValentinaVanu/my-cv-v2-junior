@@ -1,5 +1,5 @@
 .experience__checkbox {
-  // display: none;
+  display: none;
 
   &:checked ~ .experience__body{
     display: block;

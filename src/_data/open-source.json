@@ -1,0 +1,58 @@
+{
+  "sectionTitle": "Open source",
+  "statsTitle": "Stats",
+  "statsList":[
+    {
+      "icon": "github",
+      "content": [
+        "Contributions last year: 3,535",
+        "Longest streak: 767"
+      ]
+    },
+    {
+      "icon": "codewars",
+      "content": [
+        "Rank: 4kyu",
+        "Honor: 630"
+      ]
+    },
+    {
+      "icon": "stackoverflow",
+      "content": [
+        "Top: 5%",
+        "Reputation: 7,367",
+        "People reached: 3,000,000",
+        "Answers: 102"
+      ]
+    }
+  ],
+  "gitTitle":"GitHub projects",
+  "gitList":[
+    {
+      "title": "My Cv v2 starter",
+      "shortDescription": "HTML, CSS, Git, JavaScript, SEO, Optimise, React, ",
+      "percentage":[
+        "JavaScript 80%",
+        "CSS 3.7%",
+        "TypeScript 5.1%",
+        "HTML 1.2%"
+      ],
+      "moreDetails":[
+        {
+          "icon": "commits",
+          "text": "Commits: 3,578"
+        },
+        {
+          "icon": "stars",
+          "text": "Stars: 392"
+        },
+        {
+          "icon": "forks",
+          "text": "Forks: 77 "
+        }
+      ],
+      "gitDescription": "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. ",
+      "gitLink": "ValentinaVanu/my-cv-v2-starter"
+    }
+  ]
+}

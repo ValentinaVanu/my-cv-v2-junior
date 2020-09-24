@@ -1,5 +1,5 @@
 .experience__checkbox {
-  display: none;
+  // display: none;
 
   &:checked ~ .experience__body{
     display: block;
@@ -49,7 +49,7 @@
   display:none;
   grid-column: 1/-1;
   padding: 20px;
-  border: 2px solid #707070;
+  border-top: 2px solid #707070;
 }
 .experience__logo-image {
   border-radius: 50%;

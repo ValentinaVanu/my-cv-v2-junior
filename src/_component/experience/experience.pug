@@ -8,7 +8,7 @@ include ../section-title/section-title.pug
     li.experience__item
       input(
         type="checkbox",
-        id=`experience__checkbox-${key}`
+        id=`experience__checkbox--${job.companyName}`
         ).experience__checkbox
       .experience__logo
         img.experience__logo-image(
@@ -17,7 +17,7 @@ include ../section-title/section-title.pug
           )
       .experience__job-title=job.jobTitle
       label(
-        for=`experience__checkbox-${key}`
+        for=`experience__checkbox--${job.companyName}`
       ).experience__chevron
         .icon__arrow-up
       .experience__company-name=job.companyName
@@ -25,8 +25,6 @@ include ../section-title/section-title.pug
         .experience__date=`${job.startDate} - ${job.endDate}`
         each moreInfo in job.moreInfoList
           .experience__more-info=moreInfo
-
-
 
 .column(span="row" height="10")
 .column(span="row")

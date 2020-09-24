@@ -3,6 +3,17 @@
   "jobList": [
     {
       "jobTitle":"React Developer",
+      "startDate": "2019  Month",
+      "endDate": "present",
+      "iconPath": "big-telematics.png",
+      "companyName": "Big Telematics",
+      "moreInfoList": [
+        "This is some achievement.sdada",
+        "Some other achievement.dadadwsa"
+      ]
+    },
+    {
+      "jobTitle":"React Developer",
       "startDate": "2020 Month",
       "endDate": "2020 Month",
       "iconPath": "arcadia.png",

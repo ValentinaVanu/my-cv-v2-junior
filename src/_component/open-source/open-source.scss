@@ -1,19 +1,95 @@
+.pink-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float:right;
+  color: white;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #FF006D;
+  width: 40px;
+  height: 40px;
+}
+
+.git__project {
+  @extend %rounded-border-list;
+}
+.git__project-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #808080;
+  line-height: 20px;
+  margin: 10px;
+}
+.git__project-languages {
+  font-size: 12px;
+  margin: 10px;
+  line-height: 20px;
+  color:#707070;
+  font-style: italic;;
+}
+.git__project-color-wrapper {
+  display: flex;
+}
+.git__project-color-bar {
+  display: inline-block;
+}
+.pug-brown {
+  font-size: 1px;
+  height: 5px;
+  color: #4d3c26;
+  background-color: #4d3c26;
+}
+.scss-pink {
+  font-size: 1px;
+  height: 5px;
+  color: #FF006D;
+  background-color: #FF006D;
+}
+.js-yellow {
+  font-size: 1px;
+  height: 5px;
+  color: yellow;
+  background-color: yellow;
+}
+.html-red{
+  font-size: 1px;
+  height: 5px;
+  color: red;
+  background-color: red;
+}
+.css-purple {
+  font-size: 1px;
+  height: 5px;
+  color: purple;
+  background-color: purple;
+}
 .stats__list {
   @extend %rounded-border-list;
 }
 .stats__item {
+  display: flex;
+  align-items: center;
   
+  &:not(:first-child){
+    
+  }
+
   &:not(:last-child) {
     @extend %list-item;
 
   }
 }
 
-.stats__content,
 .stats__icon {
   margin: 10px;
 }
+
 .stats__content  {
+  display:flex;
+  flex-direction: column;
+  margin: 10px;
+  color: #707070;
   font-size: 13px;
-  font-weight: bold;
+  line-height: 22px;
 }

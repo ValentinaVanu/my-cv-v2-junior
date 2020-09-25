@@ -4,13 +4,49 @@ include ../section-title/section-title.pug
 .column(span="row")
   h3.about-me__lead-title= data[`open-source`].statsTitle
 .column(span="row")
-ul.stats__list
-  each stats in data['open-source'].statsList
-    li.stats__item
-      span.stats__icon(class=`icon__${stats.icon}`)
-      span.stats__content= stats.content
+.column(span="row")
+  ul.stats__list
+    each stats in data['open-source'].statsList
+      li.stats__item
+        span.stats__icon(class=`icon__${stats.icon}`)
+        span.stats__content
+          each content in stats.content
+            span.stats__content-item=content
+.column(span="row")
+.column(span="row" height="10")
+.column(span="row" height="10")
+  h3.about-me__lead-title= data[`open-source`].gitTitle
+.column(span="row" height="10")
+.column(span="row" height="10")
+.column(span="row")
+.column(span="row")
+  each project in data[`open-source`].gitList
+    .git__project
+      .git__project-title=project.title
+      .git__project-languages=project.languages
+      .git__project-color-wrapper
+        each bar in project.colorBar
+          .git__project-color-bar(
+            class=`${bar.color}`
+            style=`width:${bar.percent}`
+          )
+    .git__pink-icons
+      .pink-container
+        .icon__info
+      .pink-container
+        .icon__youtube
+      .pink-container
+        .icon__github
+    .column(span="row" height="10")
+    .column(span="row" height="10")
+    .column(span="row" height="10")
+    .column(span="row" height="10")
+    .column(span="row" height="10")
 
 .column(span="row")
+
+.column(span="row")
+.column(span="row" height="10")
   button.button__disc-green
     i.icon__arrow-down
 .column(span="row" height="10")

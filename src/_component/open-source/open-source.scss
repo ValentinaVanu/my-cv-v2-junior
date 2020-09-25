@@ -1,3 +1,21 @@
+.git__project-detailed {
+  @extend %rounded-border-list;
+  // display:none;
+}
+.git__project-percentage {
+  display: flex;
+}
+.git__project-percentList {
+  list-style-type: none;
+  font-size: 14px;
+  color: #707070;
+
+  & li::before {
+    content: "•";
+    font-size: 25px;
+    color: red;
+  }
+}
 .pink-container {
   display: flex;
   justify-content: center;
@@ -11,7 +29,7 @@
   height: 40px;
 }
 
-.git__project {
+.git__project-displayed{
   @extend %rounded-border-list;
 }
 .git__project-title {

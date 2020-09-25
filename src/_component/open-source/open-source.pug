@@ -14,16 +14,22 @@ include ../section-title/section-title.pug
             span.stats__content-item=content
 .column(span="row")
 .column(span="row" height="10")
-.column(span="row" height="10")
   h3.about-me__lead-title= data[`open-source`].gitTitle
 .column(span="row" height="10")
 .column(span="row" height="10")
 .column(span="row")
-.column(span="row")
+.column(span="row").git__project
   each project in data[`open-source`].gitList
-    .git__project
+    .git__project-displayed
       .git__project-title=project.title
       .git__project-languages=project.languages
+      //- hide >
+      .git__project-detailed
+        .git__project-percentage
+          ul.git__project-percentList
+            each percent in project.percentage
+              li=percent
+      //- end of item >
       .git__project-color-wrapper
         each bar in project.colorBar
           .git__project-color-bar(

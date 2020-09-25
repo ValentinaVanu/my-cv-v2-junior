@@ -41,7 +41,7 @@
       "percentage":[
         "HTML 100%"
       ],
-      "moreDetails":[
+      "commitStarFork":[
         {
           "icon": "commits",
           "text": "Commits: 3,578"
@@ -80,7 +80,7 @@
         "CSS 9.2%",
         "HTML 9.2%"
       ],
-      "moreDetails":[
+      "commitStarFork":[
         {
           "icon": "commits",
           "text": "Commits: 3,578"
@@ -119,7 +119,7 @@
         "CSS 19.2%",
         "HTML 39,5%"
       ],
-      "moreDetails":[
+      "commitStarFork":[
         {
           "icon": "commits",
           "text": "Commits: 3,578"
@@ -162,11 +162,13 @@
         }
       ],
       "percentage":[
-        "JavaScript 42,3%",
-        "CSS 19.2%",
-        "HTML 39,5%"
+        "JavaScript 36.2%",
+        "CSS 5.9%%",
+        "HTML 29%",
+        "SCSS 23,1%",
+        "Pug 5.8%"
       ],
-      "moreDetails":[
+      "commitStarFork":[
         {
           "icon": "commits",
           "text": "Commits: 3,578"

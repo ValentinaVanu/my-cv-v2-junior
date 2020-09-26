@@ -1,6 +1,12 @@
+.git__radio:checked ~ .icon__info {
+  background-color:blue;
+}
+.git__radio {
+  display:block;
+}
 .git__project-detailed {
   @extend %rounded-border-list;
-  // display:none;
+  display:none;
 }
 .git__project-percentage {
   display: flex;

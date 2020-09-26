@@ -23,26 +23,28 @@ include ../section-title/section-title.pug
     .git__project-displayed
       .git__project-title=project.title
       .git__project-languages=project.languages
-      //- hide >
       .git__project-detailed
         .git__project-percentage
           ul.git__project-percentList
             each percent in project.percentage
               li=percent
-      //- end of item >
+
       .git__project-color-wrapper
         each bar in project.colorBar
           .git__project-color-bar(
             class=`${bar.color}`
             style=`width:${bar.percent}`
           )
-    .git__pink-icons
-      .pink-container
-        .icon__info
-      .pink-container
-        .icon__youtube
-      .pink-container
-        .icon__github
+      .git__pink-icons
+        each pink, key in data['open-source'].pinkContainer
+          label(for=`git__pink-icons-${pink}-${key}`).pink-container
+            input.git__radio(
+              type="radio"
+              name= "git__pink-icons"
+              id= `git__pink-icons-${pink}-${key}`
+              )
+            i(class=`icon__${pink}`)
+          
     .column(span="row" height="10")
     .column(span="row" height="10")
     .column(span="row" height="10")

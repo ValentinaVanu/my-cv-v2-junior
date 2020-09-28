@@ -1,0 +1,63 @@
+- var sectionTitle = data.portfolio.sectionTitle;
+include ../section-title/section-title.pug
+.column(span="row")
+  .project__type-title
+    h3=data.portfolio.recentTitle
+    .column(span="row" height="10")
+    each project in data.portfolio.recentList
+      .project__wrapper
+        .project__title=project.title
+        .project__languages=project.languages
+        .project__img-wrapper
+          img.project__img(
+            src=`${baseUrl}asset/image/portfolio-img/${project.image}`
+            width="100%"
+            )
+      .project__pink-wrapper
+        each icon in data.portfolio.pinkIcons
+          .pink__container
+            i(class=`icon__${icon}`)
+      .column(span="row")
+      .column(span="row" height="10")
+      .column(span="row" height="10")
+      .column(span="row" height="10")
+      .column(span="row" height="10")
+      .column(span="row" height="10")
+      .column(span="row")
+
+.column(span="row" height="10")
+.column(span="row")
+  .project__type-title
+    h3=data.portfolio.oldTitle
+    .column(span="row" height="10")
+    each project in data.portfolio.oldList
+      .project__wrapper
+        .project__title=project.title
+        .project__languages=project.languages
+        .project__img-wrapper
+          img.project__img(
+            src=`${baseUrl}asset/image/portfolio-img/${project.image}`
+            width="100%"
+            )
+      .project__pink-wrapper
+        each icon in data.portfolio.pinkIcons
+          .pink__container
+            i(class=`icon__${icon}`)
+      .column(span="row")
+      .column(span="row" height="10")
+      .column(span="row" height="10")
+      .column(span="row" height="10")
+      .column(span="row" height="10")
+      .column(span="row")
+
+
+      .column(span="row")
+      .column(span="row" height="10")
+
+.column(span="row")
+.column(span="row" height="10")
+
+.column(span="row")
+  button.button__disc-green
+    i.icon__arrow-down
+.column(span="row" height="10")

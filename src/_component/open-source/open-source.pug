@@ -19,7 +19,12 @@ include ../section-title/section-title.pug
 .column(span="row" height="10")
 .column(span="row")
 .column(span="row").git__project
-  each project in data[`open-source`].gitList
+  each project, key in data[`open-source`].gitList
+    input.git__checkbox(
+      type="checkbox"
+      name= "git__pink-icons"
+      id= `git__pink-icons-${project.title}-${key}`
+    )
     .git__project-displayed
       .git__project-title=project.title
       .git__project-languages=project.languages
@@ -28,6 +33,17 @@ include ../section-title/section-title.pug
           ul.git__project-percentList
             each percent in project.percentage
               li=percent
+        .git__project-commit
+          ul.git__project-commitList
+            each commit in project.commitStarFork
+              li
+                i(class=`icon__${commit.icon}`)
+                span.commit-text=commit.text
+        .git__project-description=project.gitDescription
+        .git__project-link-wrapper
+          .git__project-link
+            span.icon__github
+            span.project-link=project.gitLink
 
       .git__project-color-wrapper
         each bar in project.colorBar
@@ -35,15 +51,13 @@ include ../section-title/section-title.pug
             class=`${bar.color}`
             style=`width:${bar.percent}`
           )
-      .git__pink-icons
-        each pink, key in data['open-source'].pinkContainer
-          label(for=`git__pink-icons-${pink}-${key}`).pink-container
-            input.git__radio(
-              type="radio"
-              name= "git__pink-icons"
-              id= `git__pink-icons-${pink}-${key}`
-              )
-            i(class=`icon__${pink}`)
+    .git__pink-icons
+      label(for=`git__pink-icons-${project.title}-${key}`).pink-container
+        i.icon__info
+        i.icon__cross
+      each pink, key in data['open-source'].pinkContainer
+        .pink-container
+          i(class=`icon__${pink}`)
           
     .column(span="row" height="10")
     .column(span="row" height="10")

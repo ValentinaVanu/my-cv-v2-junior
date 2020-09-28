@@ -1,15 +1,70 @@
-.git__radio:checked ~ .icon__info {
-  background-color:blue;
+.git__project-link-wrapper{
+  @extend %top-bottom-border;
+  padding: 20px;
+  
+  & .project-link{
+    margin-left: 10px;
+  }
 }
-.git__radio {
-  display:block;
+.git__project-link {
+  background-color: #1875F0;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px 20px 13px 40px;
+
+  & .icon__github {
+    font-size: 16px;
+  }
 }
-.git__project-detailed {
-  @extend %rounded-border-list;
-  display:none;
+.git__project-description {
+  @extend %top-bottom-border;
+  color: #707070;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 30px;
+
+}
+.git__project-commit {
+  @extend %top-bottom-border;
+  color: #707070;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px;
+
+  .commit-text{
+    margin-left: 5px;
+  }
+}
+ul.git__project-commitList {
+  list-style-type: none;
+}
+.git__checkbox {
+  display: none;
+
+  &:checked + .git__project-displayed .git__project-detailed {
+  display: block;
+  }
+}
+.git__checkbox:checked ~ .git__pink-icons {
+  & .icon__info {
+    display:none;
+  }
+  & .icon__cross{
+    display:block;
+  }
 }
 .git__project-percentage {
-  display: flex;
+  @extend %top-bottom-border;
+  padding: 10px;
+}
+
+.icon__cross{
+  display:none;
+}
+.git__project-detailed {
+  display:none;
 }
 .git__project-percentList {
   list-style-type: none;
@@ -20,6 +75,7 @@
     content: "•";
     font-size: 25px;
     color: red;
+    margin-right: 5px;
   }
 }
 .pink-container {
@@ -28,6 +84,7 @@
   align-items: center;
   float:right;
   color: white;
+  // border-top: 2px solid #707070;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   background-color: #FF006D;

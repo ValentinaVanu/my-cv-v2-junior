@@ -44,18 +44,18 @@
       "commitStarFork":[
         {
           "icon": "commits",
-          "text": "Commits: 3,578"
+          "text": "Commits: 13"
         },
         {
           "icon": "stars",
-          "text": "Stars: 392"
+          "text": "Stars: 0"
         },
         {
           "icon": "forks",
-          "text": "Forks: 77 "
+          "text": "Forks: 23 "
         }
       ],
-      "gitDescription": "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. ",
+      "gitDescription": "Welcome to version two of the project My CV. This is the starter version and it's aimed for people that are starting their 1st website or are at the very beginning of their web developer career.",
       "gitLink": "ValentinaVanu/my-cv-v2-starter"
     },
     {
@@ -83,19 +83,19 @@
       "commitStarFork":[
         {
           "icon": "commits",
-          "text": "Commits: 3,578"
+          "text": "Commits: 256"
         },
         {
           "icon": "stars",
-          "text": "Stars: 392"
+          "text": "Stars: 0"
         },
         {
           "icon": "forks",
-          "text": "Forks: 77 "
+          "text": "Forks: 18 "
         }
       ],
-      "gitDescription": "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. ",
-      "gitLink": "ValentinaVanu/my-cv-v2-starter"
+      "gitDescription": "Simple pug (jade) starter [framework] enabling faster delivery of HTML & CSS projects to a private server and/or automatic deployment of GitHub pages. ",
+      "gitLink": "ValentinaVanu/pug-starter"
     },
     {
       "title": "My Cv replica",
@@ -122,19 +122,19 @@
       "commitStarFork":[
         {
           "icon": "commits",
-          "text": "Commits: 3,578"
+          "text": "Commits: 1"
         },
         {
           "icon": "stars",
-          "text": "Stars: 392"
+          "text": "Stars: 0"
         },
         {
           "icon": "forks",
-          "text": "Forks: 77 "
+          "text": "Forks: 0 "
         }
       ],
-      "gitDescription": "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. ",
-      "gitLink": "ValentinaVanu/my-cv-v2-starter"
+      "gitDescription": "Welcome to version two of the project My CV. This is the starter version and it's aimed for people that are starting their 1st website or are at the very beginning of their web developer career. ",
+      "gitLink": "ValentinaVanu/my-cv-replica"
     },
     {
       "title": "My Cv V2 Junior",
@@ -171,19 +171,19 @@
       "commitStarFork":[
         {
           "icon": "commits",
-          "text": "Commits: 3,578"
+          "text": "Commits: 74"
         },
         {
           "icon": "stars",
-          "text": "Stars: 392"
+          "text": "Stars: 0"
         },
         {
           "icon": "forks",
-          "text": "Forks: 77 "
+          "text": "Forks: 17 "
         }
       ],
-      "gitDescription": "I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future.I make the Front-End world a better place every day. I translate geek into English and my passion is to innovate and design for the future. ",
-      "gitLink": "ValentinaVanu/my-cv-v2-starter"
+      "gitDescription": "Build your online CV mastering how to write HTML and CSS efficiently.",
+      "gitLink": "ValentinaVanu/my-cv-v2-junior"
     }
   ],
   "pinkContainer":

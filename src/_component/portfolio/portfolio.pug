@@ -14,9 +14,14 @@ include ../section-title/section-title.pug
             width="100%"
             )
       .project__pink-wrapper
-        each icon in data.portfolio.pinkIcons
+        each pink in project.pinkIcons
           .pink__container
-            i(class=`icon__${icon}`)
+            a(
+            class="pink-link"
+            href=`${pink.link}`
+            target="_blank"
+            )
+              i(class=`icon__${pink.icon}`)
       .column(span="row")
       .column(span="row" height="10")
       .column(span="row" height="10")
@@ -40,9 +45,15 @@ include ../section-title/section-title.pug
             width="100%"
             )
       .project__pink-wrapper
-        each icon in data.portfolio.pinkIcons
+        each pink in project.pinkIcons
           .pink__container
-            i(class=`icon__${icon}`)
+            a(
+            class="pink-link"
+            href=`${pink.link}`
+            target="_blank"
+            )
+              i(class=`icon__${pink.icon}`)
+            
       .column(span="row")
       .column(span="row" height="10")
       .column(span="row" height="10")

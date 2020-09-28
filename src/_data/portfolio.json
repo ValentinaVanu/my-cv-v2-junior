@@ -5,12 +5,32 @@
       {
         "title": "Pug Starter",
         "languages": "HTML, CSS, Git, JavaScript, SEO, Optimise, React",
-        "image": "pug-starter.png"
+        "image": "pug-starter.png",
+        "pinkIcons":[
+          {
+            "icon": "github",
+            "link": "https://github.com/ValentinaVanu/pug-starter"
+          },
+          {
+            "icon": "earth",
+            "link": "https://github.com/ValentinaVanu/pug-starter"
+          }
+        ]
       },
       {
         "title": "My CV V2 Junior",
         "languages": "HTML, CSS, Git,SCSS, Pug",
-        "image": "cv-v2-junior.png"
+        "image": "cv-v2-junior.png",
+        "pinkIcons":[
+          {
+            "icon": "github",
+            "link": "https://github.com/ValentinaVanu/my-cv-v2-junior"
+          },
+          {
+            "icon": "earth",
+            "link": "https://github.com/ValentinaVanu/my-cv-v2-junior"
+          }
+        ]
       }
     ],
     "oldTitle": "Old",
@@ -18,16 +38,32 @@
       {
         "title": "My CV V2 Starter",
         "languages": "HTML, CSS, Git",
-        "image": "cv-v2-starter.png"
+        "image": "cv-v2-starter.png",
+        "pinkIcons":[
+          {
+            "icon": "github",
+            "link": "https://github.com/ValentinaVanu/my-cv-v2-starter"
+          },
+          {
+            "icon": "earth",
+            "link": "https://github.com/ValentinaVanu/my-cv-v2-starter"
+          }
+        ]
       },
       {
         "title": "My CV V2 Replica",
         "languages": "HTML, CSS, Git, Pug",
-        "image": "cv-v2-replica.png"
+        "image": "cv-v2-replica.png",
+        "pinkIcons":[
+          {
+            "icon": "github",
+            "link": "https://github.com/ValentinaVanu/my-cv-replica"
+          },
+          {
+            "icon": "earth",
+            "link": "https://github.com/ValentinaVanu/my-cv-replica"
+          }
+        ]
       }
-    ],
-    "pinkIcons":[
-      "earth",
-      "github"
     ]
   }

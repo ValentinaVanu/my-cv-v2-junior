@@ -2,36 +2,41 @@
   "sectionTitle": "Experience",
   "jobList": [
     {
-      "jobTitle":"React Developer",
-      "startDate": "2019  Month",
+      "jobTitle":"Junior Web Developer",
+      "startDate": "2020  july 29th",
       "endDate": "present",
-      "iconPath": "big-telematics.png",
-      "companyName": "Big Telematics",
+      "iconPath": "codetap.png",
+      "companyName": "Codetap Academy",
       "moreInfoList": [
-        "This is some achievement.sdada",
-        "Some other achievement.dadadwsa"
+        "Mentored by Marian Zburlea",
+        "Pug was introduced to me, it opened a whole new world.",
+        "Scss changed the way i looked at CSS and styling a web page in general !",
+        "I finally had the chance to put all the puzzle pieces together and find my passion."
       ]
     },
     {
-      "jobTitle":"React Developer",
-      "startDate": "2020 Month",
-      "endDate": "2020 Month",
-      "iconPath": "arcadia.png",
-      "companyName": "ZeusMedia",
+      "jobTitle":"Junior Web Developer",
+      "startDate": "2018 February",
+      "endDate": "2018 August",
+      "iconPath": "it-school.png",
+      "companyName": "The informal School of IT",
       "moreInfoList": [
-        "This is some achievement",
-        "Some other achievement"
+        "I had the chance to learn more about JavaScript.",
+        "Practiced JavaScript Vanilla on diffrent projects.",
+        "Learned to work with a group of people, share ideas and help eachother."
       ]
     },
     {
-      "jobTitle":"HTML Developer",
-      "startDate": "2019 Month",
-      "endDate": "2019 Month",
-      "iconPath": "argus.png",
-      "companyName": "Romaris",
+      "jobTitle":"Junior Web Developer",
+      "startDate": "2017 November",
+      "endDate": "2018 January",
+      "iconPath": "udacity.png",
+      "companyName": "Udacity",
       "moreInfoList": [
-        "This is some achievement2",
-        "Some other achievement2"
+        "I learned HTML and CSS.",
+        "I was also introduced to JavaScript.",
+        "I have done my few basic projects. ",
+        "When I finished the course I was awarded a NanoDegree."
       ]
     }
   ]

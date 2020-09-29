@@ -1,0 +1,18 @@
+{
+  "sectionTitle": "I'm proud",
+  "title": "Awards and Achievements",
+  "proudList": [
+    {
+      "date":"2019 - 2020",
+      "text":"Mentored once again by Marian Zburlea, enrolled in CodeTap Academy finally put all the puzzle pieces in place.I learned how to use Pug, Scss, JavaScript and I am on my way of learning alot more.The way my code looks is much cleaner and stylish.I am very proud of my new projects here. I am extremly happy and glad I can be a part of CodeTap!"
+    },
+    {
+      "date":"2018 - 2019",
+      "text":"I enrolled in Informal School of IT in Romania, Bucharest.The information given and learned here was mostly basics of HTML and CSS followed by a more detailed JavaScrip Vanilla course. I graduated and I am proud of what i learned and of course with my final project."
+    },
+    {
+      "date":"2017 - 2018",
+      "text":"I was introduced to the world of Front End Web Dev through Marian Zburlea.I started by learning the basics of HTML and CSS and made my first projects as he suggested. Later I started using Udacity as a second resource and guide, which is where i learned a bit more and I was also introduced to basics of JavaScript."
+    }
+  ]
+}

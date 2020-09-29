@@ -1,0 +1,23 @@
+- var sectionTitle= data.reviews.sectionTitle
+include ../section-title/section-title.pug
+.column(span="row" height="10")
+.column(span="row")
+  each review in data.reviews.reviewList
+    .review__wrapper
+      img.review__avatar(
+        src=`${baseUrl}asset/image/recommendations/${review.avatar}`
+        width="64"
+      )
+      .review__info
+        .review__name=review.name
+        .review__date=review.date
+    .review__text=review.text
+    .column(span="row" height="10")
+    .column(span="row" height="10")
+      
+
+.column(span="row" height="10")
+  button.button__disc-green
+    i.icon__arrow-down
+.column(span="row")
+.column(span="row" height="10")

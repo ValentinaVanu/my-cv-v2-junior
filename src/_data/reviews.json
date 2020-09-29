@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Reviews",
+  "reviewList":[
+    {
+      "avatar": "chloe.jpg",
+      "name": "Chloe White",
+      "date":"15 October 2018 ",
+      "text":"Great content , these things you will learn will change your life for better"
+    },
+    {
+      "avatar": "chloe2.jpg",
+      "name": "Chloe Blue",
+      "date":"October 10 at 4:49 AM",
+      "text":"Very Good It"
+    },
+    {
+      "avatar": "chloe3.jpg",
+      "name": "Chloe Cute",
+      "date":"September 28 at 6:44 PM",
+      "text":"Join our group and become a professional Front Web Developer in less than 5 months !"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sectionTitle":"Recommendations",
+  "recommendationsList":[
+    {
+      "avatar":"marian.jpg",
+      "name": "Marian Zburlea",
+      "jobTitle":"Career Mentor"
+    },
+    {
+      "avatar":"chloe.jpg",
+      "name": "Chloe",
+      "jobTitle":"Senior Web Developer"
+    },
+    {
+      "avatar":"cv-me.jpeg",
+      "name": "Alan Wright",
+      "jobTitle":"Senior Project Manager at Newton Investment Management"
+    }
+  ]
+}

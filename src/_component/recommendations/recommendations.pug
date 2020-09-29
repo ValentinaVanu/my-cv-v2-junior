@@ -1,0 +1,17 @@
+- var sectionTitle= data.recommendations.sectionTitle
+include ../section-title/section-title.pug
+.column(span="row")
+  each recom in data.recommendations.recommendationsList
+    img.recom__avatar(
+      src=`${baseUrl}asset/image/recommendations/${recom.avatar}`
+      width="50"
+    )
+    span.recom__text=recom.name
+    .recom__job-title=recom.jobTitle
+.column(span="row")
+
+.column(span="row" height="10")
+  button.button__disc-green
+    i.icon__arrow-down
+.column(span="row")
+.column(span="row" height="10")

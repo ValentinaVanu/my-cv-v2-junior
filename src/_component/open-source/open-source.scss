@@ -151,10 +151,6 @@ ul.git__project-commitList {
 .stats__item {
   display: flex;
   align-items: center;
-  
-  &:not(:first-child){
-    
-  }
 
   &:not(:last-child) {
     @extend %list-item;

@@ -24,3 +24,9 @@
   align-self: flex-end;
   padding-bottom: 10px;
 }
+.changed-arrow {
+  .icon__arrow-down {
+    transform: rotate(180deg);
+  }
+
+}

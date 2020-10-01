@@ -1,0 +1,65 @@
+.wrap {
+  position: fixed;
+  // top: 190vw;
+  // left: 80vw;
+}
+
+.menu__wrapper {
+  @extend%rounded-border-list;
+  background-color: #fff;
+  // display:none;
+  color: #707070;
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 30px;
+  padding: 10px;
+  direction: rtl;
+  list-style-type: none;
+  justify-content: flex-end;
+  position: relative;
+  
+  & .icon.icon__cross {
+    position: absolute;
+    top: 88%;
+    right: 80%;
+  }
+}
+
+.burger-menu.icon__menu {
+  display: none;
+  background-color: #fff;
+
+}
+
+.icon.icon__cross {
+  float: left;
+  display: block;
+  font-size: 22px;
+  color: black;
+}
+
+.burger-menu {
+  padding: 10px;
+}
+.menu__checkbox {
+  display: none;
+}
+.menu__checkbox:checked {
+
+  &~ .menu__item-list{
+    display: none;
+  }
+}
+.menu__checkbox:checked + label {
+
+  & > .icon.icon__cross {
+    display: none;
+  }
+  & > .icon__menu {
+    display: block;
+  }
+}
+.wrap ~ .menu__wrapper.menu__checkbox:checked {
+  top: 50vw;
+  left: 50vw;
+}

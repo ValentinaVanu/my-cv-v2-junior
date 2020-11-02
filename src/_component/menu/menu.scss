@@ -1,13 +1,12 @@
 .wrap {
   position: fixed;
-  // top: 190vw;
-  // left: 80vw;
+    // top: 190vw;
+    // left: 80vw;
 }
 
 .menu__wrapper {
   @extend%rounded-border-list;
   background-color: #fff;
-  // display:none;
   color: #707070;
   font-size: 20px;
   font-weight: medium;
@@ -23,12 +22,16 @@
     top: 88%;
     right: 80%;
   }
+  & li:hover{
+    background-color: #FF006D;
+    color: #fff;
+  }
 }
 
 .burger-menu.icon__menu {
   display: none;
   background-color: #fff;
-
+  cursor: pointer;
 }
 
 .icon.icon__cross {
@@ -36,6 +39,7 @@
   display: block;
   font-size: 22px;
   color: black;
+  cursor: pointer;
 }
 
 .burger-menu {

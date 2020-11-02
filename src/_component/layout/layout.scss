@@ -18,6 +18,9 @@ body {
 .column[height="10"] {
   height: 10px;
 }
+.column[display="flex"] {
+  display: flex;
+}
 .content{
   padding:0 36px;
 

@@ -1,10 +1,8 @@
-.wrap {
-  position: fixed;
-    // top: 190vw;
-    // left: 80vw;
-}
+
 
 .menu__wrapper {
+  bottom: 20px;
+  right: 20px;
   @extend%rounded-border-list;
   background-color: #fff;
   color: #707070;
@@ -15,7 +13,8 @@
   direction: rtl;
   list-style-type: none;
   justify-content: flex-end;
-  position: relative;
+  position: fixed;
+ 
   
   & .icon.icon__cross {
     position: absolute;
@@ -54,6 +53,10 @@
     display: none;
   }
 }
+.wrap.menu__wrapper.menu__checkbox:checked + label{
+  float: right;
+}
+
 .menu__checkbox:checked + label {
 
   & > .icon.icon__cross {
